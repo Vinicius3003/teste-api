@@ -2,7 +2,7 @@
 
 let payloadAddLogin = require('../payloads/add-login.payload.json')
 
-function entrar(/* email, password */) {
+function entrar(email, password) {
 
     
 
@@ -14,8 +14,8 @@ function entrar(/* email, password */) {
             accept: "application/json"
         },
         failOnStatusCode: false,
-        body: payloadAddLogin
-/*         body: {email, password} */
+       body: payloadAddLogin
+      /* body: {email, password} */
     })
 
 }

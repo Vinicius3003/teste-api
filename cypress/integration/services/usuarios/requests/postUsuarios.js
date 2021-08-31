@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-let payloadAddUsusarios = require('../payload/add-usuarios.payload.json');
+let payloadAddUsusarios = require('../payloads/add-usuarios.payload.json');
 let faker = require('faker');
 
 function criarUsuario(email, password) {

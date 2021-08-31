@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-let payloadAddProduto = require('../payload/add-produto.payload.json');
+let payloadAddProduto = require('../payloads/add-produto.payload.json');
 let faker = require('faker');
 
 
